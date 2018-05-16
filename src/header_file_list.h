@@ -10,8 +10,14 @@
 #include <stdarg.h>
 
 /* Standard C 99 */
-#include <stdint.h>
-#include <stdbool.h>
+//#include <stdint.h>
+typedef unsigned int	uint32_t;
+typedef unsigned short	uint16_t;
+typedef unsigned char	uint8_t;
+//#include <stdbool.h>
+typedef int bool;
+#define true	1
+#define false	0
 
 /* System call */
 #include <unistd.h>
